@@ -7,7 +7,11 @@
         <button v-on:click="addCall">Appeler</button>
       </li>
     </ul>
+<<<<<<< HEAD
     <button @click="showModal = true">Ajouter un contacte</button>
+=======
+    <button @click="showModal = true">Ajouter un contact</button>
+>>>>>>> main
     <Modal :show="showModal" @close="showModal = false" @submit="addContact">
   <template v-slot:header>Ajouter un contact</template>
   <template v-slot:default>
